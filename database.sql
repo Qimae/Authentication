@@ -1,0 +1,6 @@
+/*user database*/
+CREATE TABLE `sidehustle`.`user` ( `ID` INT(50) NOT NULL AUTO_INCREMENT , 
+`username` VARCHAR(255) NOT NULL , 
+`password` VARCHAR(255) NOT NULL , 
+`created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , 
+PRIMARY KEY (`ID`)) ENGINE = InnoDB;
