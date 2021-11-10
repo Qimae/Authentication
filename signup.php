@@ -110,7 +110,7 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body class="image" style="background-image: url('bg 1.jpg');height: 500px;width: 100%;">
-<br>
+    <br>
     <center>
         <div class="container">
             <div class="text">
